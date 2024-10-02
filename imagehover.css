@@ -1,0 +1,31 @@
+.image-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Main product image */
+        .product-image {
+           
+            height: 500px;
+            border: 1px solid #ddd;
+        }
+
+        /* Zoomed image container (hidden by default) */
+        .zoom-container {
+            display: none;
+            position: absolute;
+            left: 580px; /* Position it beside the main image */
+            top: 0;
+            width: 900px;
+            height: 700px;
+            overflow: hidden;
+            border: 1px solid #ddd;
+            background: white;
+        }
+
+        /* Zoomed image */
+        .zoomed-image {
+            position: absolute;
+             /* Adjust for the zoom level */
+            height: 1300px;
+        }
